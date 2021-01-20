@@ -5,17 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            background-color: tan;
+        .wrapper{
+            margin:auto;
+            width:70%;
         }
-        h1 {
-            color:violet;
+        .topmenu {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end ;
+            margin: 0;
+            background-color: yellowgreen;
+        }
+        .topmenu >li{
+            list-style: none;
+            padding: lem;
+            color: white;
+        }
+
+        .flexgrowcon{
+            display: flex;
+            align-items: stretch;
+        }
+        leftbar,rightbar {
+            background-color: yellowgreen;
+            min-height: 500px;
+
         }
     </style>
 
 </head>
 <body> 
-
+    <div ckass="wrapper">
+        <header>
+<ul class="topmenu">
+    <li>twitch.tv/miggizzz</li>
+</ul>
+        </header>
+    </div>
     <div class="flexgrowcon">
         <leftbar style="flex-grow: 1;">
         Eemil
